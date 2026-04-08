@@ -17,7 +17,7 @@ buildGoModule {
   doCheck = false;
 
   # Go module dependencies hash - if build fails with hash mismatch, update with the "got:" value
-  vendorHash = "sha256-7eb7u47f4/OCnK/T56Zd6b5XUyV6vkBmissryBxANBU=";
+  vendorHash = "sha256-UCODmlavmZc2/4ltA2g71UvjjNLxEG+g82IFUjNtpdI=";
   # Due to https://github.com/dolthub/go-icu-regex, which requires
   # separate install of icu headers and library.
   env.CGO_CPPFLAGS="-I${icu.dev}/include";
